@@ -1,0 +1,14 @@
+
+img {
+	width: 200px;
+	border: 4px double black
+}
+a[href="https://yandex.ru"]{
+	color: red;
+
+}
+a[href="https://instagram.com"]{
+	color: black;
+	text-decoration: none;
+
+}
