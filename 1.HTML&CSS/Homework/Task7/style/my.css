@@ -1,0 +1,49 @@
+a:hover{
+	color:#E9967A;
+	background-color: #000
+}
+a:active{
+	font-size: 20px;
+	color:#E0FFFF;
+	background-color: #708090
+}
+a:link{
+	color:#483D8B;
+	background-color: ##708090
+}
+a:visited{
+	color:#00FA9A;
+	background-color: #000
+}
+h1:first-letter{
+	font-size: 24px;
+	color: #191970;
+}
+h2:first-letter{
+	font-size: 24px;
+	color: #191970;
+}
+h3:first-letter{
+	font-size: 24px;
+	color: #191970;
+}
+
+.first :first-line{
+	font-style: italic ;
+}
+
+.special:before{
+	content: "Здесь начало."
+}
+.special:after{
+	content: "А здесь конец"
+}
+::selection{
+	color:#717D7E ;
+	background: #000;
+}
+
+:selection{
+	color:#717D7E ;
+	background: #000;
+}
