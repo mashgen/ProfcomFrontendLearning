@@ -1,0 +1,22 @@
+h1{
+	background-color: #00ffdd;
+	color: #000;
+}
+h2{
+	background-color: #000;
+}
+p{
+
+}
+.one{
+	font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+}
+.page{
+	background: #333;
+    color: #fc0;
+}
+#special{
+	font-size: 50%;
+	text-align: center;
+}
