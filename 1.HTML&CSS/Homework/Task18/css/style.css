@@ -1,0 +1,17 @@
+body{
+	padding: 30px;
+}
+p{
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-shadow: 3px 0px 3px black;
+}
+p.test1{
+	background-image: linear-gradient(to left, yellow, red);
+}
+p.test2{
+	background-image: radial-gradient(circle closest-corner at center center, rgb(125, 20, 125), blue);
+				
+}
