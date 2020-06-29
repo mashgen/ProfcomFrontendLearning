@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Вебформы в CSS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+<body>
+	<article>
+		<h1>Форма Посвята</h1>
+		<form method="post" action="" class="subform">
+			<p>
+				<label for="name">ФИО</label>
+				<input type="text" name="name" id="name">
+			</p>
+			<p>
+				<label for="email">Введите вашу почту (обязательно gmail)</label>
+				<input type="email" name="email" id="email">
+			</p>
+			<p>
+				<label for="trello">Trello</label>
+				<input type="text" name="trello" id="trello">
+			</p>
+			<p>Курс:
+				<label class="course" id="firstcourse">
+					<input type="radio" name="curse" value="1"> 1
+				</label>
+				<label class="course" id="secondcourse">
+					<input type="radio" name="curse" value="2"> 2
+				</label>
+				<label class="course">
+					<input type="radio" name="curse" value="3"> 3 и cтарше
+				</label>
+				<label class="course">
+					<input type="radio" name="curse" value="4"> Академик
+				</label>
+			</p>
+			<p>
+				<label for="goal">Твое мероприятие? :</label>
+				<select name="goal" id="goal">
+					<option>Эстафета</option>
+					<option>Квест</option>
+					<option>Ярмарка</option>
+					<option>Фотокросс</option>
+					<option>Обряд</option>
+					<option>Клятва</option>
+					<option>Другое (работа в блоке)</option>
+				</select>
+			</p>
+			<p>
+				<label for="comments">Ваше пожелание</label>
+				<textarea name="comments" cols="40" rows="5" id="comments">
+				</textarea>
+			</p>
+			<p>
+				<input type="submit" value="Отправить">
+			</p>
+		</form>
+	</article>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+	width: 960px;
+	margin: 0 auto;	
+	background: linear-gradient(to right, #FFFF00, transparent),
+						linear-gradient(to right, #00CC5E, transparent),
+						linear-gradient(to left, #7430D0, transparent);
+	color: #7430D0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px 1.5px violet;
+}
+h1{
+	font-size: 2em;
+	border-bottom: double 1.5px #fff;
+	padding-bottom: 5px;
+}
+p{
+	margin-bottom: 20px;
+}
+.subform{
+	font-size: 1.1em;
+
+}
+.subform label{
+	display: inline-block;
+	width: 230px;
+	vertical-align: top;
+	text-align: left;
+	font-weight: bold;
+}
+.subform input[type="submit"]{
+	margin-left: 246px;
+	padding: 12px 24px;
+	font-size: 1em;
+	background: navy;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 0 0 3px #000;
+	color: #fff;
+}
+label.course{
+	width: 120px;
+}
+#firstcourse{
+	margin-left: 180px;
+	width: 50px;
+}
+#secondcourse{
+	width: 50px;
+}
+.subform input[type="text"], .subform input[type="email"], .subform textarea{
+	border-radius:4px;
+	border: none;
+	box-shadow: 0 0 3px #fff;
+	padding: 7px;
+	width: 550px;
+}
